@@ -720,7 +720,7 @@ Instead edit gulp/templates/sprite*/
 
 .icon {
 		display: block;
-		background-image: url('../../../assets/icons/sprites/sprites-1770d333.svg');
+		background-image: url('../../assets/icons/sprites/sprites-1770d333.svg');
 	}
 
 /*.no-svg .icon {
