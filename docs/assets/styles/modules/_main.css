@@ -1,0 +1,103 @@
+.box {
+	margin-top: 90px;		
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+
+	@mixin atLarge{
+		margin-top: 90px;
+		max-width: 420px;
+		display: inline-block;
+		&:nth-child(even){
+			float: right;
+			@mixin clearfix;
+		}
+		&:nth-child(odd){
+			float: left;
+		}	
+	}
+}
+
+.grey {
+	padding: 10px 0px;
+	background-color: #f0f0f0;
+}
+
+.form {
+	position: relative;
+	margin: 30px auto;
+	width: 100%;
+	input[type=email]{
+		outline: none;
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid black;
+		padding: 10px 0px;
+		background-color: inherit;
+		&::placeholder{
+			font-weight: 600;
+		}
+	}
+	@mixin atMedium{
+		margin-top: 70px;
+		margin-bottom: 50px;
+	}
+	input[type=submit]{
+		background: url('../../../assets/icons/sprites/sprites-1770d333.svg') no-repeat;
+		width: 34px;
+		height: 19px;
+		background-position: 0 60.97560975609756%;
+		border: none;
+		outline: none;
+		color: transparent;
+		z-index: 999;
+		display: block;
+		cursor: pointer;
+		position: absolute;
+		top: 10px;
+		right: 0;
+	}
+}
+.clear:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.load_more{
+	margin: 80px auto;
+	text-align: center;
+	button{
+		color: $main-color;
+		cursor: pointer;
+		font-size: 1.25rem;
+		font-weight: 400;
+		padding: 15px 30px;
+		background-color: inherit;
+		outline:none;
+		border: 1px solid $main-color;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

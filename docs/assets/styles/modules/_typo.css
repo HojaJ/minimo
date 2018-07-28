@@ -1,0 +1,22 @@
+.info {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: $accent-color;
+	text-transform: uppercase;
+	margin-top: 20px;
+	display: block;
+}
+h2{
+	font-size: 1.5rem;
+	font-weight: 400;
+	&.bold{
+		color: $bold-color;
+	}
+	@mixin atMedium{
+		font-size: 1.875rem;
+	}
+}
+p {
+	font-weight: 400;
+	line-height: 24px;
+}

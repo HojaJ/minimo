@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;	
+}
+body {
+	font-size: 0.875rem;
+	font-family: 'Playfair Display', serif;
+	color: $main-color;
+}
+img, picture{
+	max-width: 100%;
+	height: auto;
+}
+a, a:hover, a:visited, a:link{
+	text-decoration: none;
+	color:inherit;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}

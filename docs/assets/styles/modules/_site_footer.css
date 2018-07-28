@@ -1,0 +1,38 @@
+footer{
+	color: #000;
+	font-weight: 400;
+	ul li{
+		&:last-child{
+			margin-right: 0px !important;
+		}
+		display: inline-block;
+	}
+	.footer-menu{
+		display: block;
+		text-align: center;
+		ul li {
+			margin-right: 15px;
+		}
+
+		@mixin atMedium{
+			display: inline-block;
+		}
+	}
+
+	.social {
+		text-align: center;
+		ul li {
+			margin-right: 15px;
+		}
+		margin: 20px auto;
+		@mixin atMedium{
+			float: right;
+			margin-top: 0px;
+
+			ul li{
+				margin-right: 0;
+				margin-left: 15px;
+			}
+		}
+	}
+}
