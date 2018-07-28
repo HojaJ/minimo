@@ -627,7 +627,7 @@ nav {
 	}
 
 .form input[type=submit]{
-		background: url('../../../assets/icons/sprites/sprites-1770d333.svg') no-repeat;
+		background: url('../../../../assets/icons/sprites/sprites-1770d333.svg') no-repeat;
 		width: 34px;
 		height: 19px;
 		background-position: 0 60.97560975609756%;
@@ -720,7 +720,7 @@ Instead edit gulp/templates/sprite*/
 
 .icon {
 		display: block;
-		background-image: url('../../../assets/icons/sprites/sprites-1770d333.svg');
+		background-image: url('../../../../assets/icons/sprites/sprites-1770d333.svg');
 	}
 
 /*.no-svg .icon {
